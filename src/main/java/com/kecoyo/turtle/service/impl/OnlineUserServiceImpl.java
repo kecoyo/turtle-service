@@ -11,7 +11,7 @@ import com.kecoyo.turtle.common.security.JwtProperties;
 import com.kecoyo.turtle.common.security.JwtUserDto;
 import com.kecoyo.turtle.common.security.TokenProvider;
 import com.kecoyo.turtle.common.utils.EncryptUtils;
-import com.kecoyo.turtle.dto.OnlineUserDto;
+import com.kecoyo.turtle.domain.dto.OnlineUserDto;
 import com.kecoyo.turtle.service.OnlineUserService;
 
 import jakarta.servlet.http.HttpServletRequest;

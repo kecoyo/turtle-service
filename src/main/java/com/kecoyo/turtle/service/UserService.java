@@ -1,8 +1,8 @@
 package com.kecoyo.turtle.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kecoyo.turtle.dto.LoginUserDto;
-import com.kecoyo.turtle.model.User;
+import com.kecoyo.turtle.domain.User;
+import com.kecoyo.turtle.domain.dto.LoginUserDto;
 
 import jakarta.servlet.http.HttpServletRequest;
 

@@ -6,7 +6,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.kecoyo.turtle.model.User;
+import com.kecoyo.turtle.domain.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

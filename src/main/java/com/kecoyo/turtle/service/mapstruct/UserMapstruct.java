@@ -6,7 +6,7 @@ import org.mapstruct.Mappings;
 import org.mapstruct.ReportingPolicy;
 
 import com.kecoyo.turtle.common.security.JwtUserDto;
-import com.kecoyo.turtle.dto.LoginUserDto;
+import com.kecoyo.turtle.domain.dto.LoginUserDto;
 
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface UserMapstruct {

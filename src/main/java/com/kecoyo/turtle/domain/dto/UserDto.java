@@ -1,4 +1,4 @@
-package com.kecoyo.turtle.dto;
+package com.kecoyo.turtle.domain.dto;
 
 import java.io.Serializable;
 

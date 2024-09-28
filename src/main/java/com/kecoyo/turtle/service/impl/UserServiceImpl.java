@@ -14,9 +14,9 @@ import com.kecoyo.turtle.common.security.JwtProperties;
 import com.kecoyo.turtle.common.security.JwtUserDto;
 import com.kecoyo.turtle.common.security.SecurityUtils;
 import com.kecoyo.turtle.common.security.TokenProvider;
-import com.kecoyo.turtle.dto.LoginUserDto;
+import com.kecoyo.turtle.domain.User;
+import com.kecoyo.turtle.domain.dto.LoginUserDto;
 import com.kecoyo.turtle.mapper.UserMapper;
-import com.kecoyo.turtle.model.User;
 import com.kecoyo.turtle.service.UserService;
 import com.kecoyo.turtle.service.mapstruct.UserMapstruct;
 

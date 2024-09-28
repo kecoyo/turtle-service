@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kecoyo.turtle.common.security.JwtUserDto;
-import com.kecoyo.turtle.dto.UserLoginDto;
-import com.kecoyo.turtle.dto.LoginUserDto;
-import com.kecoyo.turtle.model.User;
+import com.kecoyo.turtle.domain.User;
+import com.kecoyo.turtle.domain.dto.LoginUserDto;
+import com.kecoyo.turtle.domain.dto.UserLoginDto;
 import com.kecoyo.turtle.service.UserService;
 
 import io.swagger.v3.oas.annotations.Operation;

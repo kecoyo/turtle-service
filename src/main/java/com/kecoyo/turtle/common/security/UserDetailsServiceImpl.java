@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.kecoyo.turtle.model.User;
+import com.kecoyo.turtle.domain.User;
 import com.kecoyo.turtle.service.RoleService;
 import com.kecoyo.turtle.service.UserService;
 

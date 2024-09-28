@@ -1,4 +1,4 @@
-package com.kecoyo.turtle.model;
+package com.kecoyo.turtle.domain;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -13,16 +13,34 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 @Data
-@Schema(description = "角色")
-@TableName("sys_role")
-public class Role implements Serializable {
+@Schema(description = "用户")
+@TableName("sys_user")
+public class User implements Serializable {
 
     @Schema(description = "ID")
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @Schema(description = "角色名称")
+    @Schema(description = "用户名")
+    private String username;
+
+    @Schema(description = "登录密码")
+    private String password;
+
+    @Schema(description = "用户名称")
     private String name;
+
+    @Schema(description = "用户头像")
+    private String avatar;
+
+    @Schema(description = "用户手机")
+    private String phone;
+
+    @Schema(description = "用户性别")
+    private Integer gender;
+
+    @Schema(description = "用户邮箱")
+    private String email;
 
     @Schema(description = "创建时间")
     @TableField("create_at")
@@ -40,7 +58,8 @@ public class Role implements Serializable {
     @TableField("deleted")
     private Integer deleted;
 
-    @Schema(description = "角色对应的用户列表")
+    @Schema(description = "用户角色")
     @TableField(exist = false)
-    private Set<User> users;
+    private Set<Role> roles;
+
 }
